@@ -1,0 +1,354 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.top-header-section {
+	 border-top:none; 
+}
+
+
+        
+.menu_area .menu_bottom .mainmenu a, .navbar-default .navbar-nav > li > a {
+	padding-top: 16px!important;
+	padding-bottom: 7px!important;
+	
+}   
+.box-shadow {
+	margin-bottom: 12px!important;
+}
+    
+ .speech-image img {
+	width: 24%!important;
+	
+}
+    
+  .tab-wrpp {
+	padding: 6px 6px!important;
+}  
+
+.tab-list li a {
+    font-size: 15px!important;
+
+}
+    
+.calend img {
+	width: 5% !important;
+}
+    
+.blog-date ul li {
+	margin-right: 3px!important;
+	padding-right: 7px!important;
+	font-size: 16px!important;
+}
+
+.blog-title {
+	font-size: 16px!important;
+}
+    
+.wrpper {
+	padding-top: 21px !important;
+
+}
+.counter-contant {
+	height: 160px!important;
+	width: 160px!important;
+
+}
+.counter-contant h2 span {
+	font-size: 40px!important;
+	line-height: 106px!important;
+}	
+	
+.counter-contant p {
+	margin-top: -34px!important;
+}
+	
+
+  
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.top-header-section {
+    border-top: none!important; 
+	text-align: center!important;
+}
+    
+.konakanchi::before {
+	position: relative!important;
+
+}
+    
+    /*=============== top header start============*/
+
+.header-addeess {
+	padding-left: 22px !important;
+	margin-bottom: 7px !important;
+}
+.header-addeess li {
+	font-size: 14px!important;
+	padding-left: 18px!important;
+
+
+}
+    
+ 
+.header-padding {
+	 margin-left: 0 !important; 
+}
+    
+
+    
+.top-social {
+	text-align: center !important;
+	margin-top: 12px !important;
+}
+  .header-addeess i.fa {
+	font-size: 20px!important;
+	height: 35px!important;
+	width: 35px!important;
+	line-height: 35px!important;
+}  
+
+/*=============== top header End============*/
+    
+ 
+    
+/*=============== Menu css  start============*/
+.menu-section {
+	position: relative !important;
+}
+.menu_area .menu_bottom .mainmenu a, .navbar-default .navbar-nav > li > a {
+	padding-top: 17px!important;
+	padding-bottom: 7px!important;
+}
+    
+.search-icon i {
+	margin-top: 2px!important;
+}
+.sticky {
+    position: relative!important;
+    
+}
+
+/*=============== Menu css End============*/
+    
+/*=============== Speech Section css Start============*/
+.box-shadow {
+	margin-top: 10px!important;
+}
+/*=============== Speech Section css End============*/
+    
+    
+/*=============== Tab Section css Start============*/
+.tab-icons-image img {
+	width: 18% !important;
+}
+.tab-icons-image {
+	 display: inherit!important; 
+}
+    
+.tab-list li {
+	margin-bottom: 7px!important;
+}
+    
+.tab-wrpp {
+	padding: 7px 18px!important;
+	width: 100%!important;
+}
+    
+.calend img {
+	width: 13%!important;
+    overflow: hidden;
+}
+    
+.icon-img a {
+	display: inline!important;
+}
+
+/*=============== Tab Section css End============*/
+    
+    
+/*=============== Acadcmic Section css Start============*/
+.acadcmic-list .owl-dots {
+    left: 30%!important;
+	bottom: -13px!important;
+}
+/*=============== Acadcmic Section css End============*/
+.counter-contant {
+	margin-bottom: 10px!important;
+}
+    
+.teacher-list .owl-dots {
+	left: 25%!important;
+	bottom: -18px!important;
+}
+    
+    
+
+
+    
+.video-list .owl-dots {
+	left: 34%!important;
+	bottom: -38px!important;
+}
+
+   
+    
+/*=============== Section ten Start============*/
+.blog-list .owl-dots {
+	left: 14%!important;
+	bottom: -14px!important;
+	
+}
+/*=============== Section ten End============*/
+    
+    
+
+
+    
+/*=============== footer-section-start============*/
+
+.footer-menu-title {
+	padding-bottom: 0 !important;
+	font-size: 16px !important;
+}
+	
+.footer-icon {
+	left: -7px!important;
+	font-size: 17px!important;
+}    
+
+.f-address-content {
+	margin-left: -2px!important;
+	font-size:13px !important;
+	
+}
+
+    
+/*=============== footer-section-End============*/
+    
+    
+/*=============== bottom-footer-section-start============*/
+    
+.design-developed {
+	text-align: center!important;
+	font-size: 16px!important;
+}
+.copy-right {
+	text-align: center!important;
+}
+    
+
+.table.table-bordered thead tr th {
+	
+	padding: 11px 8px!important;
+	
+}
+
+.wrpper a {
+	font-size: 14px!important;
+}
+    
+.wrpper {
+	padding-top: 21px !important;
+} 
+.image img {
+	width: 100%!important;
+
+}
+  
+    
+    
+/*=============== single-page-start============*/
+	.single-page-image img {
+	width: 100% !important;
+
+}
+    .single-page-content {
+	margin-left: 0 !important;
+}
+	
+	
+	
+   /*=============== single-page-End============*/ 
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+.top-social {
+	right: 27% !important;
+	
+}
+ 
+.header-addeess {
+	padding-left: 24px !important;
+	margin-bottom: 30px !important;
+}
+    
+
+    
+.tab-icons-image img {
+	width: 6% !important;
+}
+    
+.calend img {
+	width: 9% !important;
+	overflow: hidden;
+}
+  
+.blog-title {
+	font-size: 15px!important;
+}
+    
+ .blog-list .owl-dots {
+	left: 42% !important;
+	bottom: -14px !important;
+}  
+
+
+.blog-date ul li {
+	margin-right: 1px!important;	
+    font-size: 13px!important;
+	padding-right: 7px!important;
+}
+
+.blog-title {
+	font-size: 16px!important;
+}
+    
+.blog-content {
+	font-size: 14px!important;
+	
+}    
+    
+    
+.f-address-content {
+	 margin-left: 0!important;
+}
+    
+.wrpper {
+	padding-top: 14px !important;
+}
+
+table.table-bordered td {
+	font-size: 12px!important;
+}
+	
+.wrpper {
+	font-size: 12px!important;
+}
+
+.wrpper a {
+	font-size: 11px !important;
+}
+    
+
+}

@@ -1,0 +1,1469 @@
+/*
+Theme Name: Acadcmic Bongshai IT
+Theme URI: https://bongshaiit.com
+Author: Khyrul Islam
+Author URI: https://bongshaiit.com
+Description: acadcmictheme brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: acadcmictheme
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use
+
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
+@font-face {
+    font-family: 'SolaimanLipiNormal';
+    src: url('fonts/solaiman-lipi.eot');
+    src: url('fonts/solaiman-lipi.eot') format('embedded-opentype'),
+         url('fonts/solaiman-lipi.woff') format('woff'),
+         url('fonts/solaiman-lipi.ttf') format('truetype'),
+         url('fonts/solaiman-lipi.svg#SolaimanLipiNormal') format('svg');
+	
+	font-weight:normal;font-style:normal;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+}
+body {
+    background: #fff;
+	width:100%;
+	font-family: SolaimanLipiNormal;
+    
+}
+a:hover { text-decoration: none }
+
+                /*======================================
+                             top-headr css-start
+                ======================================*/
+.top-header-section {
+	border-top: 5px solid#343a40;
+}
+
+.konakanchi {
+	position: relative;
+	background: #343a40;
+	line-height: 41px;
+    color: #fff;
+}
+
+.konakanchi::before {
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-top: 41px solid;
+	border-left: 50px solid transparent;
+	position: absolute;
+	left: -50px;
+	border-top-color: #343a40;
+}
+
+.top-social {
+	text-align: center;
+	position: absolute;
+	right: 14%;
+	top: -4px;
+	line-height: 27px;
+}
+.top-social i.fa {
+	margin-top: 7px;
+
+}
+.top-social a {
+	color: #fff;
+	margin: 0 5px;
+	text-decoration: none;
+	transition: .8s;
+	font-size: 16px;
+	height: 33px;
+	width: 33px;
+	border: 2px solid#fff;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 6px;
+	font-size: 14px;
+}
+
+
+             /*======================================
+                             top-headr css-End
+                ======================================*/
+
+
+
+                /*======================================
+                             headr css-start
+                ======================================*/
+.header-section {
+	padding-top: 24px;
+	padding-bottom: 19px;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+}
+
+.header-padding {
+	margin-left: 20px;
+}
+
+.header-addeess strong {
+	font-weight: 600;
+	font-size: 15px;
+	color: #686868;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.header-addeess li {
+	list-style: none;
+	font-size: 14px;
+	color: #000;
+	padding-left: 30px;
+	margin-top: 4px;
+	line-height: 15px;
+}
+
+
+.header-addeess i.fa {
+	position: absolute;
+	left: -0;
+	top: 0px;
+	font-size: 18px;
+	color: #686868;
+	height: 40px;
+	width: 40px;
+	border: 2px solid #686868;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 50px;
+}
+
+.company-title ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ .header-addeess{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+ }
+
+                /*======================================
+                             headr css-End
+                ======================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /*======================================
+                                Home-Gallery css-End
+                    ======================================*/
+.home-section {
+	overflow: hidden;
+}
+
+.gallery_image img {
+	width: 100%;
+	height: auto;
+}
+.home-list .owl-dots button {
+	margin: 0 3px;
+	padding: 5px;
+	border: 2px solid #fff;
+	background: #000;
+	transition:.8s;
+}
+
+.home-list .owl-dots button.active{
+  background: #f00;
+   transform: rotate(50deg);
+   transition:.8s;
+   
+}
+
+.home-list .owl-dots {
+	text-align: center;
+	position: absolute;
+	left: 45%;
+	bottom: 21px;
+	content: "";
+	z-index: 1;
+	transition:.8s;
+}
+    
+   
+                /*======================================
+                                Home-Gallery css-End
+                    ======================================*/
+
+
+
+                /*======================================
+                        About us Section css-Start
+                ======================================*/
+.about-section {
+	padding: 30px 0;
+}
+.about-image img {
+	width: 100%;
+	height: auto;
+}
+
+.box-shadow {
+	box-shadow: 0 0 5px #ddd;
+	padding: 5px;
+}
+
+.about-title {
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.7px;
+	color: #000;
+    margin-left: 10px;
+    margin-bottom: 11px;
+	position: relative;
+}
+
+.about-title::before {
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	height: 3px;
+	width: 27%;
+	background: #970404;
+	content: "";
+	border-radius: 51%;
+    transition: 1s;
+}
+
+.about-content {
+	font-size: 17px;
+	text-align: justify;
+	line-height: 26px;
+	margin-left: 10px;
+}
+
+.about-content a {
+	color: #01cbec;
+	font-size: 13px;
+	text-decoration: none;
+    transition: .8s;
+}
+
+.about-content a:hover{
+   	letter-spacing: 1px;
+}
+      
+.box-shadow:hover .about-title::before{
+    width: 50%;
+}
+                
+                /*======================================
+                        About us Section css-End
+                ======================================*/
+
+                /*======================================
+                        Speech Section css-Sart
+                ======================================*/
+.speech-section {
+	padding: 10px 0;
+}
+
+.speech-image img {
+	float: right;
+	width: 43%;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.speech-title {
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.7px;
+	color: #000;
+    margin-left: 10px;
+    margin-bottom: 11px;
+	position: relative;
+}
+
+.speech-title::before {
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	height: 3px;
+	width: 27%;
+	background: #970404;
+	content: "";
+	border-radius: 51%;
+    transition: 1s;
+}
+.speech-wrpp:hover .speech-title::before{
+    width: 40%;
+}
+
+.speech-content {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 26px;
+	margin-left: 10px;
+}
+
+.speech-content a {
+	color: #01cbec;
+	font-size: 13px;
+	text-decoration: none;
+    transition: .8s;
+}
+.speech-content a:hover{
+    letter-spacing: 1px;
+}
+
+                /*======================================
+                        Speech Section css-End
+                ======================================*/ 
+
+
+
+                
+                /*======================================
+                        Tab Section css-Start
+                ======================================*/
+.tab-section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.tab-section-wrpp {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.tab-seciton-title {
+	font-size: 36px;
+	font-weight: 700;
+	color: #01284F;
+	text-transform: uppercase;
+}
+
+
+.tab-wrpp {
+	padding: 7px 31px;
+}
+.tab-icons-image img {
+	width: 43px;
+	height: auto;
+}
+.tab-icons-image {
+	display: block;
+	text-align: center;
+}
+
+.tab-list {
+	text-align: left;
+	margin-left: -42px;
+}
+
+.tab-list li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 2px;
+	background: #AED581;
+	cursor: pointer;
+}
+
+.tab-list li a {
+	color: #fff;
+	font-size: 22px;
+	text-decoration:none;
+}
+.tab-list .active {
+	background: #8BC34A;
+	text-decoration: none;
+}
+.tab-list .active a{
+    color: #f00;
+    transition: .8s;
+}  
+
+.border {
+	border-bottom: 1px solid#fff;
+	margin-bottom: 8px;
+	padding-bottom: 4px;
+}
+
+.tab-content {
+	background: #C8E6C9;
+	padding: 20px 10px;
+	margin-top: -10px;
+	margin-right: 3px;
+}
+
+
+.calend img {
+	width: 22%;
+	height: auto;
+	margin-right: 8px;
+}
+
+
+.date {
+	position: absolute;
+	margin-left: 11px;
+	font-size: 12px !important;
+	font-weight: 700;
+	color: #086FC1 !important;
+	margin-top: 12px;
+}
+
+.calend {
+	font-size: 16px;
+	color: #a52a2a;
+}
+
+
+
+.icon-img img {
+	width: 30px;
+	float: left;
+	margin-right: 13px;
+}
+.icon-img a {
+	font-size: 15px;
+	color: #004d40;
+	text-decoration: none;
+	font-weight: 400;
+    display: inline-block;
+    transition: .38s;
+}
+.icon-img a:hover{
+    color: #a52a2a;
+    font-weight: 700;
+    
+}
+
+
+
+                /*======================================
+                        Tab Section css-End
+                ======================================*/
+
+
+  
+        /*================================
+               Acadcmic-section-Start
+        ===============================*/
+
+.acadcmic-seciton {
+	padding: 50px 0;
+	background: #000;
+	margin: 20px 0;
+}
+
+.acadcmic-section-wrpp {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.acadcmic-seciton-title {
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+
+}
+
+.acadcmic-wrpp {
+	margin-bottom: 15px;
+	background: #333;
+    border-radius: 0 0 7px 7px;
+}
+
+.acadcmic-image img {
+	width: 100%;
+	height: auto;
+    
+}
+
+.acadcmic-name {
+	padding: 20px 10px;
+	text-align: center;
+  	
+}
+
+.acadcmic-name a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.acadcmic-list .owl-dots button {
+	display: inline-block;
+	padding: 3px;
+	background: #333;
+	margin: 0 3px;
+	border:2px solid#333;
+	transition: .8s;
+}
+
+.acadcmic-list .owl-dots button.active{
+  	background: #ff0;
+	transform: rotate(50deg);
+	transition: .8s;
+	border: 2px solid #ff0;
+}
+
+.acadcmic-list .owl-dots {
+		text-align: center;
+	position: absolute;
+	left: 48%;
+	bottom: -17px;
+	content: "";
+	z-index: 1;
+
+}
+    
+        /*================================
+               Acadcmic-section-End
+        ===============================*/
+
+
+
+
+                /*======================================
+                  Counter-Section css-End
+                ======================================*/
+
+.counter-section {
+	padding: 50px 0;
+}
+
+.counter-contant h2 {
+    font-size: 44px;
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+}
+
+.counter-contant h2 span {
+	font-size: 50px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 138px;
+}
+
+.counter-contant {
+	text-align: center;
+	height: 190px;
+	width: 190px;
+	border-radius: 50%;
+	background: #86BC42;
+	color: #fff;
+	margin: 0 auto;
+	display: block;
+	padding: 10px;
+}
+
+.count-border {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 100%;
+}
+
+.counter-contant p {
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: -45px;
+}
+
+
+
+
+
+                /*======================================
+                   Counter-Section css-End
+                    ======================================*/
+
+
+
+
+                /*======================================
+                   Teacher-section css-Start
+                    ======================================*/
+.teacher-seciton {
+	padding: 20px 0;
+	margin-bottom: 30px;
+}
+
+.teacher-section-wrpp {
+	text-align: center;
+	margin-bottom: 26px;
+}
+
+.teacher-seciton-title {
+	font-size: 36px;
+	font-weight: 700;
+	color: #01284F;
+	text-transform: uppercase;
+}
+
+.teacher-wrpp {
+	box-shadow: 0 0 4px #dbdbdb;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.teacher-image {
+	margin-bottom: 13px;
+}
+
+.teacher-image img {
+	width: 100%;
+	height: auto;
+}
+
+.teacher-name {
+	font-size: 22px;
+	font-weight: 600;
+	color: #01284F;
+	margin-bottom: 2px;
+}
+
+.teacher-deg {
+	padding-bottom: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333;
+}
+
+.teacher-list .owl-dots button {
+display: inline-block;
+	margin: 0 3px;
+	padding: 3px;
+	border: 2px solid #000;
+	background: #000;
+	transition: .8s;
+}
+
+.teacher-list .owl-dots button.active{
+	background: #fff;
+	transform: rotate(50deg);
+	transition: .8s;
+	border: 2px solid #000;
+}
+
+.teacher-list .owl-dots {
+		margin-top: 5px;
+	text-align: center;
+	position: absolute;
+	left: 48%;
+	bottom: -10px;
+	content: "";
+	z-index: 1;
+	color: #01284F;
+}
+
+
+
+                /*======================================
+                   Teacher-section css-End
+                ======================================*/
+
+
+
+                /*======================================
+                   Video-section css-Start
+                ======================================*/
+
+.video-seciton {
+	padding-top: 30px;
+	padding-bottom: 70px;
+	margin-bottom: 30px;
+    background: #000;
+}
+
+.video-section-wrpp {
+	text-align: center;
+	margin-bottom: 26px;
+}
+
+.video-seciton-title {
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.video-item {
+	border: 3px solid#333;
+	margin-bottom: 13px;
+}
+.video-title {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: #333;
+}
+
+.video-title a {
+	color: #ff0;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.video-list .owl-dots button {
+	display: inline-block;
+	padding: 3px;
+	background: #333;
+	margin: 0 3px;
+	border:2px solid#333;
+	transition: .8s;
+}
+
+.video-list .owl-dots button.active{
+	background: #ff0;
+	transform: rotate(50deg);
+	transition: .8s;
+	border: 2px solid #ff0;
+}
+
+.video-list .owl-dots {
+	text-align: center;
+	position: absolute;
+	left: 48%;
+	bottom: -38px;
+	content: "";
+	z-index: 1;
+}
+
+                /*======================================
+                   Video-section css-End
+                ======================================*/
+
+
+
+
+
+
+    
+        /*================================
+               Laest-Section-Start
+        ===============================*/
+
+.blog-section {
+	padding: 50px 0;
+}
+
+.blog-section-wrpp {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.blog-seciton-title {
+	font-size: 36px;
+	font-weight: 700;
+	color: #01284F;
+	text-transform: uppercase;
+}
+
+
+.blog-wrpp {
+	border: 1px solid#ddd;
+	margin-bottom: 14px;
+}
+
+.blog-image {
+    position: relative;
+    overflow: hidden;
+
+}
+.blog-image img{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.6s ease;
+    width:100%;
+    height:auto;
+}
+
+.blog-wrpp:hover .blog-image img{
+    position: relative;
+    z-index: 20;
+    -webkit-transform: scale(1.1111);
+    transform: scale(1.1111);
+}
+
+
+.blog-date ul li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 7px;
+	border-right: 1px solid#ddd;
+	padding-right: 17px;
+    font-size: 16px;
+}
+
+.blog-date ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.blog-date ul li:last-child{
+    border-right: none;
+}
+
+.blog-padding {
+	padding: 13px 10px 0px;
+}
+
+.blog-title {
+	font-size: 22px;
+	font-weight: 600;
+	color: #061538;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.blog-title a{
+    color: #061538;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.blog-wrpp:hover .blog-title a{
+    color: #01284F;
+}
+
+.blog-content {
+	font-size: 16px;
+	line-height: 25px;
+	color: #333;
+	text-align:justify;
+}
+
+.read-more-btn {
+	border-top: 1px solid#ddd;
+	padding: 10px 10px;
+	margin-top: 14px;
+}
+.read-more-btn a:hover{
+    color: #01284F;
+    margin-left: 5px;
+}
+
+.read-more-btn a {
+	color: #242424;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+    transition: .5s;
+}
+
+
+.blog-list .owl-dots button {
+	display: inline-block;
+	margin: 0 3px;
+	padding: 3px;
+	border: 2px solid #000;
+	background: #000;
+	transition: .8s;
+}
+
+.blog-list .owl-dots button.active {
+	background: #fff;
+	transform: rotate(50deg);
+	transition: .8s;
+	border: 2px solid #000;
+}
+
+.blog-list .owl-dots {
+	margin-top: 5px;
+	text-align: center;
+	position: absolute;
+	left: 48%;
+	bottom: -10px;
+	content: "";
+	z-index: 1;
+	color: #01284F;
+}
+
+ 
+ 
+        /*================================
+               Blog section-End
+        ===============================*/
+
+
+
+
+
+
+  
+
+
+
+                                /*=============================
+                                        footer-css-start
+                                ===============================*/
+
+/*--------- footer menu css-start---------------*/
+
+
+
+.footer-menu ul{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-menu ul li {
+	margin-bottom: 7px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #333;
+}
+
+
+
+
+.footer-menu ul li a:hover{
+    margin-left: 2px;
+     color:#ff0;
+}
+
+
+
+
+/*--------- footer menu css-End---------------*/
+
+
+
+ /*--------- bottom footer css-start---------------*/
+
+
+.copy-right{
+    font-size: 16px;
+    color:#fff;
+}
+
+.design-developed{
+    text-align: right;
+    color:#fff;
+    font-size: 16px;
+}
+
+.design-developed a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.scrollToTop {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	background: #000;
+	position: fixed;
+	right: 25px;
+	bottom: 70px;
+    z-index: 9999;
+    transition: .8s;
+    border: 2px solid transparent;
+}
+.scrollToTop:hover{
+    background: transparent;
+    border: 2px solid#ff0;
+    color: #000;
+}
+.scrollToTop i.fa {
+	font-size: 35px;
+	color: #fff;
+	font-weight: 600;
+	top: 5px;
+	display: block;
+	position: absolute;
+	right: 13px;
+}
+.scrollToTop i.fa:hover{
+    color: #ff0;
+}
+ /*--------- bottom footer css-End---------------*/
+       /*=============================
+                                    all-page-css Start
+                                ===============================*/
+
+
+
+/*==============Archive-page css Start====================*/
+
+.archive-page {
+	padding: 20px 0;
+}
+
+.table.table-bordered thead tr th {
+	text-align: center;
+	background: #8BC34A;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 11px 0;
+	border-bottom: none;
+	letter-spacing: 0.3px;
+}
+.table.table-bordered tbody tr th {
+	text-align: center;
+    margin-top: 20px;
+}
+
+
+.table.table-bordered td {
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	letter-spacing: 0.2px;
+}
+
+
+.image img {
+	width: 20%;
+	height: auto;
+}
+
+.wrpper {
+	padding-top: 60px !important;
+	color: #0f0d0d;
+	font-size: 15px;
+}
+
+.wrpper a {
+	background: #f00;
+	padding: 5px 20px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin-top: -7px;
+	border-radius: 5px;
+}
+/*==============Archive-page css End====================*/
+
+
+
+/*==============Single-page css Start====================*/
+.single-page {
+	padding: 20px 0;
+}
+
+.single-title {
+	text-align: center;
+	font-size: 25px;
+	color: #1a0f68;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 6px;
+	padding-top: 8px;
+}
+
+.single-p-deg {
+	text-align: center;
+	font-size: 19px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+.single-page-image {
+	text-align: center;
+	margin-top: 22px;
+	margin-bottom: 10px;
+}
+
+.single-page-image img {
+	width: 30%;
+	margin-top: 6px;
+}
+
+
+.single-page-content {
+	font-size: 17px;
+	text-align: justify;
+	margin-top: 10px;
+	line-height: 30px;
+	color: #000;
+	margin-left: 33%;
+}
+
+
+/*==============Single-page css End====================*/
+
+
+/*==============Information-Archive-page css Start====================*/
+.inform {
+	padding-top: 12px !important;
+	color: #0f0d0d;
+	font-size: 15px;
+}
+
+.inform a {
+	background: #f00;
+	padding: 5px 20px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	margin-top: -7px;
+	border-radius: 5px;
+}
+
+.viwe a {
+	background: #078a4d;
+	display: inline-block;
+	padding: 4px 15px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+
+.viwe i.fa {
+	margin-right: 6px;
+}
+
+/*==============Information-Archive-page css End====================*/
+
+
+/*==============Information-Single-page css Start====================*/
+.information-single-page {
+	padding: 40px 0;
+}
+
+.information-title {
+	border-left: 3px solid#f00;
+	background: #eff9ff;
+	padding: 10px 10px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.singel-information-content {
+	font-size: 16px;
+	text-align: justify;
+	margin-top: 10px;
+}
+.single-dawonlod {
+	text-align: center;
+	margin-top: 28px;
+}
+
+.single-dawonlod a {
+	background: #f00;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+.single-dawonlod i.fa {
+	margin-right: 4px;
+}
+
+/*==============Information-Single-page css End====================*/
+
+/*---------  page Create section start  ---------------*/
+
+.create-page-section {
+	padding: 40px;
+}
+.create-page-title {
+	background: #f1ffff;
+	padding: 10px;
+	text-align: center;
+}
+
+.create-page-title a {
+	font-size: 22px;
+	color: #000;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.create-page-content {
+	font-size: 16px;
+	text-align: justify;
+	margin-top: 10px;
+	color: #333;
+}
+/*---------  page Create section End  ---------------*/
+
+
+
+/*===========Contact-page css start==================*/
+
+.contact-page-section {
+	margin-top: 52px;
+}
+
+.contact-p-wrpp {
+	text-align: center;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+
+.contact-page-icon i.fa {
+	background: #01284F;
+	width: 130px;
+	height: 130px;
+	font-size: 50px;
+	border-radius: 50%;
+	line-height: 134px;
+	color: #fff;
+	margin-top: 40px;
+}
+
+
+.contact-page-title {
+	font-size: 30px;
+	margin-top: 20px;
+	color: #01284F;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.contact-page-content {
+	margin-bottom: 30px;
+}
+
+.contact-page-content ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.contact-page-content ul li {
+	font-size: 16px;
+	color: #4a4747;
+	margin-bottom: 7px;
+}
+
+
+
+.page-from-title {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 29px;
+	text-transform: uppercase;
+	color: #01284F;
+    font-weight: 700;
+}
+
+.page-contact-from {
+	background: #F7F7FD;
+	padding: 40px 0;
+	margin-top: 40px;
+}
+
+
+.page-from-wpper input[type="text"], input[type="email"], textarea {
+	background: #fff;
+	border: none;
+	padding: 15px;
+	color: #000;
+	margin-bottom: 32px;
+	font-size: 16px;
+}
+
+.page-from-wpper input, .page-from-wpper textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    color: #000;
+ }
+
+
+.page-from-wpper input[type="submit"]{
+    width: auto;
+    margin: 0;
+    
+ }
+.page-from-wpper input[type="submit"] {
+	width: auto;
+	margin: 0 auto;
+	
+	
+}
+
+.contact-from-btn {
+	text-align: center;
+	margin-top: 14px;
+}
+
+.page-from-wpper input[type="submit"], button[type="submit"] {
+	background: #01284F;
+	padding: 14px 56px;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+    text-transform: uppercase;
+    text-align: center;
+    transition: .8s;
+	
+}
+
+.page-from-wpper input[type="submit"]:hover{
+     background: #010E2A;
+    color: #fff;
+ 
+}
+
+.maps-section iframe{
+    width: 100%;
+  
+}
+/*===========Contact-page css End==================*/
+
+
+/*===========Single-Latest-page css Start==================*/
+.single-latest-page {
+	padding: 50px 0;
+}
+
+.single-latest-page-image img {
+	width: 100%;
+	height: auto;
+}
+.single-latest-page-title {
+	font-size: 30px;
+	font-weight: 600;
+	color: #01284F;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.single-latest-page-content {
+	font-size: 18px;
+	color: #333;
+	text-align: justify;
+}
+/*===========Single-Latest-page css End==================*/
+
+
+/*===========Gallery-page css Start==================*/
+.gallery-section {
+	padding: 50px 0;
+}
+
+.image-link img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 14px;
+}
+/*===========Gallery-page css End==================*/
+
+
+
+/*===========Single-about-page css Start==================*/
+.single-about-page {
+    padding: 40px 0;
+}
+.single-about-title {
+	text-align: center;
+	padding: 5px 0;
+	background: #edfcff;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #000;
+}
+
+.single-about-content {
+	font-size: 17px;
+	text-align: justify;
+	margin-top: 10px;
+	line-height: 30px;
+}
+/*===========single-about-page css End==================*/
+
+
+/*===========single-video-page Start End==================*/
+.video-page {
+	padding: 40px 0;
+}
+
+.single-video-page {
+	padding: 30px 0;
+}
+
+
+.single-video {
+	font-size: 25px;
+	background: #ddd;
+	padding: 10px;
+	margin-bottom: 11px;
+}
+
+.single-video {
+	font-size: 25px;
+	background: #e9f9fb;
+	padding: 10px;
+	margin-bottom: 11px;
+	color: #000;
+	font-weight: 700;
+}
+
+/*===========single-video-page css End==================*/
+
+
+
+
+                                /*=============================
+                                    all-page-css End
+                                ===============================
+
+
+
+        
+
